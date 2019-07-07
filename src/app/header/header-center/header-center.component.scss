@@ -1,0 +1,95 @@
+
+    .wrap-sticky nav.navbar.bootsnav.sticked {
+        background-color: rgba(0, 0, 0, 0.87);
+    }
+
+    .home-5 .wrap-sticky nav.navbar.bootsnav.sticked {
+        background-color: #fff;
+        box-shadow: -6px 2px 9px 1px #dadada;
+    }
+
+    .header-search .btn-group.bootstrap-select {
+        width: 127px !important;
+    }
+
+    .header-search .btn-group.bootstrap-select button {
+        background: transparent;
+        border: 1px solid #182028;
+        padding: 10px 15px;
+    }
+
+    .header-search {
+        position: relative;
+    }
+
+    .header-search input {
+        padding-right: 0;
+        border-radius: 100px;
+        background: transparent;
+        border-color: #475967;
+    }
+
+    .social .attr-nav > ul > li > a {
+        padding:28px 14px 15px;
+    }
+
+    .header-search button {
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: #00c3b7;
+        border: none;
+        padding: 9px 36px;
+        border-radius: 100px;
+        color: #fff;
+    }
+
+    .header-search {
+        margin: 15px 0px;
+    }
+
+    .Top-rating-items .movie-item-contents {
+        border-radius: 25px;
+        margin-top: -8px;
+    }
+
+    .Top-rating-items .slick-slide.slick-active .movie-item-contents {
+        height: 480px;
+        margin-top: 40px;
+    }
+
+    .header-center {
+        padding: 15px 0;
+        border-bottom: 1px solid #182028;
+        border-top: 1px solid #182028;
+    }
+
+    .header-search .btn-group.bootstrap-select {
+        position: absolute;
+    }
+
+    .pagination>li>a,
+    .pagination>li>span {
+        color: #ffffff;
+        background-color: #182028;
+        margin: 0 5px;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .pagination>.active>a,
+    .pagination>.active>a:focus,
+    .pagination>.active>a:hover,
+    .pagination>.active>span,
+    .pagination>.active>span:focus,
+    .pagination>.active>span:hover {
+        color: #fff;
+        background-color: #13be13;
+        border-color: #13be13;
+    }
+
+    .pagination>li:first-child>a,
+    .pagination>li:first-child>span {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }

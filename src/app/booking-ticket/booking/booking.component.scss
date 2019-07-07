@@ -1,0 +1,93 @@
+.rightbooking{
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    .contentbooking{
+        padding: 0 12px;
+        .total{
+            border-bottom: 1px dashed #e9e9e9;
+            .totalcost{
+                padding: 35px 0;
+                text-align: center;
+                font-size: 36px;
+                color: #44c020;
+            }
+        }
+
+        .filmname{
+            border-bottom: 1px dashed #e9e9e9;
+            padding: 15px 0;
+            .ageType{
+                background-color: #fb4226;
+                color: #fff;
+                border-radius: 4px;
+                padding: 0 5px;
+                float: left;
+                margin-right: 5px;
+            }
+        }
+
+        .chair{
+            border-bottom: 1px dashed #e9e9e9;
+            padding: 15px 0;
+            .chair_left{
+                color: #fb4226;
+                font-size: 15px;
+                .pass_chair{
+                    margin: 0 5px;
+                }
+            }
+            .chair_right{
+                font-weight: bold;
+                color: #44c020;
+                font-size: 15px;
+            }
+        }
+
+        .email{
+            border-bottom: 1px dashed #e9e9e9;
+            padding: 5px 0;
+            input{
+                border: 0px;
+                padding: 0;
+                
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .phone{
+            border-bottom: 1px dashed #e9e9e9;
+            padding: 5px 0;
+            input{
+                border: 0px;
+                padding: 0;
+                
+                &:focus{
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .bookingonline{
+            border-bottom: 1px dashed #e9e9e9;
+            padding: 10px 0;
+            img{
+                width: 20px;
+                height: 20px;
+                margin-top: 2px;
+                margin-right: 5px;
+            }
+        }
+    }
+
+    .buyticket{
+        padding: 15px 0;
+        text-align: center;
+        margin-top: 10px;
+        background-color: #fb9917;
+        font-size: 22px;
+        color: white;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+}
